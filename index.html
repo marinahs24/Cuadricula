@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=ç, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        #container{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(242, 158, 250);
+            display: grid;
+            grid-template-columns: repeat(16, 1fr);
+            grid-template-rows: repeat(16, 1fr);
+        }
+            #m1{
+                grid-column-start: 1;
+                grid-column-end: 5;
+                grid-row-start: 1;
+                grid-row-end: 3;
+                background-color: rgb(89, 0, 255);
+            }
+            #m2{
+                grid-column-start: 5;
+                grid-column-end: 12;
+                grid-row-start: 1;
+                grid-row-end: 3;
+                background-color: rgb(255, 0, 179);
+            }
+            #m3{
+                grid-column-start: 12;
+                grid-column-end: 17;
+                grid-row-start: 1;
+                grid-row-end: 3;
+                background-color: rgb(255, 255, 255);
+
+            }
+            #m4{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 8;
+                background-color: white;
+            }
+            #m5{
+                grid-column-start: 3;
+                grid-column-end: 5;
+                grid-row-start: 3;
+                grid-row-end: 5;
+                background-color: rgb(102, 156, 255);
+            }
+            #m6{
+                grid-column-start: 3;
+                grid-column-end: 8;
+                grid-row-start: 5;
+                grid-row-end: 9;
+                background-color: khaki;
+            }
+            #m7{
+                grid-column-start: 5;
+                grid-column-end: 7;
+                grid-row-start: 3;
+                grid-row-end: 5;
+                background-color: red;
+            }
+            #m8{
+                grid-column-start: 7;
+                grid-column-end: 11;
+                grid-row-start: 10;
+                grid-row-end: 15;
+                background-color: white;
+            }
+            #m9{
+                grid-column-start: 10;
+                grid-column-end: 11;
+                grid-row-start: 3;
+                grid-row-end: 10;
+                background-color: red;
+            }
+            #m10{
+                grid-column-start: 1;
+                grid-column-end: 7;
+                grid-row-start: 9;
+                grid-row-end: 16;
+                background-color: rgb(49, 15, 46);
+            }
+            #m11{
+                grid-column-start: 7;
+                grid-column-end: 10;
+                grid-row-start: 3;
+                grid-row-end: 5;
+                background-color: rgb(23, 194, 114);
+            }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="m1"></div>
+        <div id="m2"></div>
+        <div id="m3"></div>
+        <div id="m4"></div>
+        <div id="m5"></div>
+        <div id="m6"></div>
+        <div id="m7"></div>
+        <div id="m8"></div>
+        <div id="m9"></div>
+        <div id="m10"></div>
+        <div id="m11"></div>
+        </div>
+    </div>
+   
+</body>
+</html>
